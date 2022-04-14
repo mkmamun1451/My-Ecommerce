@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Category"
+        android:title="Category"
+        android:icon="@drawable/cat"/>
+    <item
+        android:id="@+id/Wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/heart"/>
+    <item
+        android:id="@+id/Cart"
+        android:title="Cart"
+        android:icon="@drawable/cat"/>
+    <item
+        android:id="@+id/Account"
+        android:title="Account"
+        android:icon="@drawable/account"/>
+
+
+</menu>
