@@ -9,6 +9,10 @@
         android:title="Wishlist"
         android:icon="@drawable/heart"/>
     <item
+        android:id="@+id/plase"
+        android:title=""
+        />
+    <item
         android:id="@+id/Cart"
         android:title="Cart"
         android:icon="@drawable/cat"/>

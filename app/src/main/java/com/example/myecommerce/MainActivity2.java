@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class MainActivity2 extends AppCompatActivity {
     private TextView signup2;
     private Button signup;
+    private Class<HomeActivity2> targetActivityClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,8 +60,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                        Intent intent = new Intent(MainActivity2.this,HomeActivity2.class);
-                        intent.putExtra("placeId",1);
+                        Intent intent = new Intent(MainActivity2.this,HomeActivity.class);
                         startActivity(intent);
             }
         });
